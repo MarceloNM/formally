@@ -70,7 +70,7 @@ namespace formally
                     servidor.Host = "localhost";
                     servidor.Port = 1025; // para usar o servidor local de email   //  4545; //usei com o mountebank 
                     servidor.Credentials = new NetworkCredential("", "");
-                    //                    servidor.Credentials = new NetworkCredential("antmn2marques@gmail.com", "equd wboe araf dkoy");
+                    //                    servidor.Credentials = new NetworkCredential("fake@gmail.com", "");
                     //                    servidor.EnableSsl = true;
                     servidor.EnableSsl = false;
                     servidor.Send(email);
